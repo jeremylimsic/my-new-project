@@ -9,4 +9,4 @@ version: 2.1
        - heroku/deploy-via-git:
            filters:
              branches:
-               only: master # only run deploy-via-git job on main branch
+               only: main # only run deploy-via-git job on main branch
